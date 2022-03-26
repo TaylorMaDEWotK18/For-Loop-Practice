@@ -2,9 +2,9 @@
 //         console.log(x);
 // }
 
-function getRandomNumber(upper) {
-    return Math.floor( Math.random() * upper ) + 1;
-}
+// function getRandomNumber(upper) {
+//     return Math.floor( Math.random() * upper ) + 1;
+// }
 
 // // There are 3 arguements that go in the parathesis
 
@@ -18,6 +18,10 @@ function getRandomNumber(upper) {
     // - ( x = 0; x < 10; x += 1) (OR x++(increment operator))
 
 // 4) Finally inside the code block is the code that runs each time the condition `( x < 10 )` evaluates TRUE
-    for ( x = 0; x < 10; x += 1) {
-        console.log(`The ramdom number is ${getRandomNumber(100)}`);
-    }
+    // for ( x = 0; x < 10; x += 1) {
+    //     console.log(`The ramdom number is ${getRandomNumber(100)}`);
+    // }
+
+    for ( x = 5; x <= 100; x += 1) {
+        console.log(x); 
+       }
