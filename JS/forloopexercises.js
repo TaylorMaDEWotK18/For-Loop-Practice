@@ -13,3 +13,8 @@ main.innerHTML = final;
 
 // Example output: 
 // 2 4 6 8 10 12 14 16 18 20 22 OR each item on a new line
+
+// Exercise 2) - Given two arrays of integers. Add up each element in the same position and create a new array containing the sum of each pair. Assume both arrays are of the same length.
+
+let arr1 = [5, 11, 18];
+let arr2 = [7, 13, 24];
